@@ -1,0 +1,7 @@
+{
+  "name": "hozaykatravy.com",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.3",
+    "slick.js": "~1.4.1"
+  }
+}

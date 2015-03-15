@@ -1,0 +1,199 @@
+@import "variables"
+@import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins"
+@import "../../../node_modules/bourbon/app/assets/stylesheets/_bourbon.scss"
+
+// Fluid container
+//
+// Utilizes the mixin meant for fixed width containers, but without any defined
+// width for fluid, full width layouts.
+
+.container-fluid
+	margin-left: 0px
+	margin-right: 0px
+	max-width: 1366px
+	@media(min-width: $grid-float-breakpoint)
+		#sidebar
+			max-width: 338px
+
+// ------------------------------------------------------------------------------
+h1.logo
+	text-align: center
+	img
+		width: 80px
+	small
+		display: block
+		text-indent: -9000px
+		height: 0px
+
+
+.divider
+	margin-top: 32px
+
+#main
+	background-color: $body-bg
+	.carousel-featured
+		.img-circle
+			margin: 18px 0px 0px 0px
+			display: inline
+	@media(min-width: $grid-float-breakpoint)
+		padding: 25px 65px
+	@media(max-width: $grid-float-breakpoint)
+		padding-top: 85px
+
+#sidebar
+	position: fixed
+	height: 100%
+	overflow: auto
+	z-index: 1
+	color: $pl-de_york
+	background-color: $pl-merino
+	text-shadow: 1px 0 1px #999
+	//text-shadow: 1px 0 1px #888888
+	padding-top: 24px
+	padding-left: 24px
+	@media(max-width: $grid-float-breakpoint)
+		height: auto
+		overflow: hidden
+		padding: 5px
+		.navbar-brand
+			padding: 5px
+			position: absolute
+			left: 50%
+			margin-left: -30px
+			top: 5px
+			img
+				width: auto
+				height: 100%
+				margin: 0px
+		.sidebar-navbar-collapse
+			box-sizing: border-box
+			padding: 0px 20px
+			.nav
+				padding-top: 10px
+				margin: 0px
+				.icons
+					margin-bottom: 0px
+			#tagsCold
+				padding-bottom: 10px
+				margin-top: 5px
+	.userpic
+		width: 90px
+		margin-bottom: 15px
+	a
+		color: $link-color
+		background-color: transparent
+		//text-shadow: 1px 0 1px #888888
+		&.logo
+			display: block
+			padding: 3px
+			background-color: #fff
+			color: #777777
+			height: 40px
+			width: 40px
+			margin: 15px
+			font-size: 26px
+			font-weight: 700
+			text-align: center
+			text-decoration: none
+			text-shadow: 0 0 0
+	.nav
+		a
+			padding-left: 0px
+		&>li.icons
+			margin-bottom: 20px
+			margin-left: -5px
+			a
+				margin-right: 3px
+				display: inline-block
+				padding: 0px
+				i:last-child
+					color: $body-bg
+				.img-svg
+					padding: 6px
+					height: 100%
+					path
+						fill: $body-bg
+	#tagsCold
+		margin-top: 20px
+
+#sidebar-footer
+	position: absolute
+	bottom: 5px
+
+#footer
+	margin-bottom: 20px
+
+.tags-list, #tagsCold
+	a
+		margin-right: 5px
+		display: inline-block
+
+/* bootstrap overrides
+
+h1, h2, h3
+	font-weight: 800
+	font-family: 'Open Sans',arial,sans-serif
+
+.jumbotron
+	background-color: transparent
+
+.col-sm-9.full
+	width: 100%
+
+small.text-muted
+	font-family: courier,courier-new,monospace
+
+//.wrapper, .row
+//	height: 100%
+//	margin-left: 0
+//	margin-right: 0
+
+//.wrapper
+//	&:before, &:after
+//		content: ""
+//		display: table
+//
+//.wrapper:after
+//	clear: both
+
+//.row-eq-height
+//	+display(flex)
+//.column
+//	&:before, &:after
+//		content: ""
+//		display: table
+//
+//
+//.column
+//	&:after
+//		clear: both
+//	height: 100%
+//	overflow: auto
+//	*zoom: 1
+//	.padding
+//		padding: 20px
+
+//.box
+//	bottom: 0
+//	/* increase for footer use
+//	left: 0
+//	position: absolute
+//	right: 0
+//	top: 0
+//	//background-image: url('/images/template/bg_suburb.jpg')
+//	//background-size: cover
+//	//background-attachment: fixed
+
+
+
+
+
+
+
+
+
+
+.content
+	min-height: 450px
+
+

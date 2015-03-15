@@ -1,0 +1,23 @@
+{
+  "name": "hozaykatravy.com",
+  "version": "1.0.0",
+  "description": "site hozaykatravy.com",
+  "homepage": "https://github.com/me6iaton/hozaykatravy.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Mamrashev <me6iaton@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/me6iaton/hozaykatravy.com.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "^4.2.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.1.0"
+  }
+}
