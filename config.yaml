@@ -1,0 +1,8 @@
+baseurl: "http://hozaykatravy.com/"
+title: "hozaykatravy.com"
+author: "Anton Mamrashev"
+copyright: "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
+Taxonomies:
+    tag: "tags"
+    category: "categories"
+Paginate: 2

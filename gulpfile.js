@@ -4,12 +4,11 @@
 var gulp = require('gulp')
 ,concat = require('gulp-concat')
 ,uglify = require('gulp-uglify')
-,sourcemaps = require('gulp-sourcemaps')
+,sourcemaps = require('gulp-sourcemaps');
 
 var paths = {
 	scripts: {
-		dest: './src/raw/scripts'
-		,sourceRoot: '/src/raw/scripts/app'
+		dest: './static/scripts'
 		,regular: [
 			"./static/vendor/jquery/dist/jquery.js"
 			,"./static/vendor/jquery.tagcloud.js"
@@ -18,12 +17,12 @@ var paths = {
 			,"./static/vendor/modernizr.js"
 			,"./static/vendor/purl/purl.js"
 			,"./static/vendor/slick.js/slick/slick.js"
-			,"./static/vendor/fotorama/fotorama.js"
+			,"./static/vendor/fotorama/out/fotorama.js"
 			,"./static/vendor/photoset-grid/jquery.photoset-grid.js"
 			,"./static/vendor/gphoto/jquery.ggrid.js"
-			,"./static/vendor/Fluidbox/jquery.fluidbox.js"
+			,"./static/vendor/fluidbox/jquery.fluidbox.js"
 			,"./static/vendor/gphoto/jquery.gphoto.js"
-			,"./src/raw/scripts/app/script.js"
+			,"./static/scripts/app/script.js"
 		]
 	}, styles: {
 		regular: []
@@ -41,6 +40,5 @@ gulp.task('scripts',function() {
 		.pipe(concat('all.js'))
 		//.pipe(uglify({preserveComments: 'some'}))
 	.pipe(sourcemaps.write())
-	//.pipe(sourcemaps.write({includeContent: false, sourceRoot: paths.scripts.sourceRoot}))
 	.pipe(gulp.dest(paths.scripts.dest));
 });

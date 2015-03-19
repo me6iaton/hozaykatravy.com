@@ -1,0 +1,15 @@
+<div id="useful-links" class="row">
+  <div class="col-sm-12">
+    <div class="page-header text-muted divider">Полезные Ссылки</div>
+    <div class="slider">
+      {{range where .Site.Pages "Type" "links"}}
+      <div class="col-sm-4 text-center">
+        <h4>{{.Title}}</h4>
+        <a href="{{ .RelPermalink}}" target='_blank'>
+          <img src="{{.Params.image}}=w200-h200-c"  class="img-responsive img-circle"/>
+        </a>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>

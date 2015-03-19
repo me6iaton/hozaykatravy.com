@@ -15,7 +15,7 @@
     $(function() {
       $("#tagsCold a").tagcloud();
     });
-    $('.content a:contains("fotorama")').gphoto({
+    $('main a:contains("fotorama")').gphoto({
       provider: {
         name: 'fotorama',
         width: '100%',
@@ -28,7 +28,7 @@
         keyboard: true
       }
     });
-    $('.content a:contains("ggrid")').gphoto({
+    $('main a:contains("ggrid")').gphoto({
       provider: {
         name: 'ggrid'
       }

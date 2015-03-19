@@ -1,0 +1,5 @@
+<p class="pull-right tags-list">
+  {{ range .Params.tags}}
+  <a href="/tags/{{. | urlize }}" class="label label-default">{{.}}</a>
+  {{end}}
+</p>

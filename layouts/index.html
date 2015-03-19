@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title></title>
+  {{ partial "head.html" . }}
 </head>
 <body>
+<div class="container-fluid">
+  <div class="row row-eq-height">
+    <aside id="sidebar" class="col-xs-12 col-sm-3 navbar navbar-default">
+      {{ partial "aside.html" . }}
+    </aside>
+    <div id="main" class="col-sm-9 col-sm-offset-3">
+      <main>
+        <h1 class="logo hidden-xs"><a href="/"><img src="/images/template/madeathome_logo.svg"/></a><small>made at home</small></h1>
+        {{ partial "featured.html" .}}
+        <div id="stories" class="col-sm-12">
+          <div class="page-header text-muted divider">Последние посты</div>
+        </div>
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+        {{ range $paginator.Pages }}
+        {{ partial "post-row.html" . }}
+        {{end}}
+        {{ partial "pagination.html" .}}
+        {{ partial "links.html" . }}
+      </main>
+      <div id="footer" class="row">
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

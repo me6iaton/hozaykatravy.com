@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h3><a href="{{.RelPermalink}}">{{.Title}}</a></h3>
+    {{ if isset .Params "image" }}
+    <p>
+      <a href="{{.RelPermalink}}">
+        <img src="{{.Params.image}}=w640" alt="" class="img-rounded img-responsive"/>
+      </a>
+    </p>
+    {{ end }}
+    <p class="description">
+      {{.Summary}}
+    </p>
+    <footer>
+      {{ partial "tags.html" . }}
+      <h4>
+        <small class="text-muted">
+          {{ .Date.Format "02.01.2006" }}  • <a href="" class="text-muted">Прочитать</a>
+        </small>
+      </h4>
+    </footer>
+  </div>
+</div>
+

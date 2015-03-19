@@ -13,7 +13,7 @@ $ ->
 		$("#tagsCold a").tagcloud()
 		return
 
-	$('.content a:contains("fotorama")').gphoto
+	$('main a:contains("fotorama")').gphoto
 		provider:
 			name: 'fotorama'
 			width: '100%'
@@ -25,7 +25,7 @@ $ ->
 			allowfullscreen: 'native'
 			keyboard: true
 
-	$('.content a:contains("ggrid")').gphoto
+	$('main a:contains("ggrid")').gphoto
 		provider:
 			name: 'ggrid'
 
@@ -44,30 +44,3 @@ $ ->
 				slidesToShow: 1
 				slidesToScroll: 1
 		]
-
-
-	# * Replace all SVG images with inline SVG
-#	jQuery(".img-svg").each ->
-#		$img = jQuery(this)
-#		imgID = $img.attr("id")
-#		imgClass = $img.attr("class")
-#		imgURL = $img.attr("src")
-#		jQuery.get imgURL, ((data) ->
-#
-#			# Get the SVG tag, ignore the rest
-#			$svg = jQuery(data).find("svg")
-#
-#			# Add replaced image's ID to the new SVG
-#			$svg = $svg.attr("id", imgID)  if typeof imgID isnt "undefined"
-#
-#			# Add replaced image's classes to the new SVG
-#			$svg = $svg.attr("class", imgClass + " replaced-svg")  if typeof imgClass isnt "undefined"
-#
-#			# Remove any invalid XML tags as per http://validator.w3.org
-#			$svg = $svg.removeAttr("xmlns:a")
-#
-#			# Replace image with new SVG
-#			$img.replaceWith $svg
-#			return
-#		), "xml"
-#		return

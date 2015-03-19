@@ -1,0 +1,13 @@
+<div id="featured" class="col-sm-12">
+  <div class="page-header text-muted">Избранное</div>
+  <div class="slider">
+    {{ range .Site.Taxonomies.categories.featured }}
+    <div>
+      <h4>{{.Page.Title}}</h4>
+      <a href="{{.Page.RelPermalink}}">
+        <img src="{{.Page.Params.image}}=w200-h200-c"  class="img-responsive img-circle"/>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>

@@ -2,6 +2,9 @@
   "name": "hozaykatravy.com",
   "dependencies": {
     "bootstrap-sass": "~3.3.3",
-    "slick.js": "~1.4.1"
+    "slick.js": "~1.4.1",
+    "bourbon": "~4.2.1",
+    "fluidbox": "~1.4.3",
+    "fotorama": "git@github.com:artpolikarpov/fotorama.git#~4.6.3"
   }
 }
