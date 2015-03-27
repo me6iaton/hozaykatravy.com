@@ -1,0 +1,32 @@
+"*":
+  "exception-reporting":
+    userId: "57c752ea-b4b2-674b-15f0-298be1c35f37"
+  welcome:
+    showOnStartup: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "wrap-guide"
+      "metrics"
+      "status-bar"
+    ]
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+    preferredLineLength: 100
+    softWrap: true
+    showLineNumbers: false
+    fontSize: 15
+  "markdown-writer": {}
+  "remember-session":
+    x: 2045
+    y: 221
+    width: 1207
+    height: 784
+    treeWidth: 200
+  docapp: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
