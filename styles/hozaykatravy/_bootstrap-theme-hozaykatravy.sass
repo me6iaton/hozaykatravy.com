@@ -1,0 +1,96 @@
+@import "variables"
+@import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins"
+
+// bootstrap-theme-hozaykatravy.sass
+// -----------------------------------------------------
+
+
+//
+// Typography
+// --------------------------------------------------
+// Page header
+// -------------------------
+
+.page-header
+	margin-top: 55px
+	padding-top: 9px
+	border-top: 1px solid #eeeeee
+	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 2px
+	&-top
+		padding-bottom: (($line-height-computed / 2) - 1) + 10
+		//margin: ($line-height-computed * 2) 0 $line-height-computed
+		margin: 0 0 0
+		//border-bottom: 1px solid $page-header-border-color
+		border-bottom: none
+
+//
+// Scaffolding
+// --------------------------------------------------
+// Links
+
+
+a
+	&:hover,&:focus
+		text-decoration: none
+
+
+//
+// Carousel
+// --------------------------------------------------
+
+.carousel-control
+	&.left,&.right
+		background-image: none
+	//&.left
+	//	left: -60px
+	//&.right
+	//	right: -60px
+
+// Navbar =====================================================================
+
+//
+// Navs
+// --------------------------------------------------
+
+//
+// Panels
+// --------------------------------------------------
+
+// Buttons ====================================================================
+
+
+// Tables =====================================================================
+
+
+// Forms ======================================================================
+// Position radios and checkboxes better
+
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+
+
+// Navs =======================================================================
+.navbar-default
+	border: none
+	border-radius: 0
+	.navbar-nav>li>a
+		padding: 10px 15px 10px  0px
+	ul
+		float: none
+		&>li
+			float: none
+	.sidebar-navbar-collapse
+		padding: 0px
+		overflow-y: initial
+		&.in
+			overflow-y: initial
+
+// Indicators =================================================================
+
+// Progress bars ==============================================================
+
+// Containers =================================================================
+

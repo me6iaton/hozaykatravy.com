@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo on hozaykatravy.com</title>
+    <link>http://hozaykatravy.com/tags/photo/</link>
+    <description>Recent content in Photo on hozaykatravy.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015, Anton Mamrashev; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hozaykatravy.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>new post</title>
+      <link>http://hozaykatravy.com/posts/2015-04-01-new-file/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hozaykatravy.com/posts/2015-04-01-new-file/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/aLPYimPa2a5KLt0_opuDqy6T61pYcqsL3mr3N1-pBP8=s500-p-no&#34; alt=&#34;colors&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;text&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/photos/112518746943932059156/albums/6132392966909621873&#34;&gt;fotorama&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/photos/112518746943932059156/albums/5818721811715994769&#34;&gt;ggrid&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plus.google.com/photos/112518746943932059156/albums/5818721811715994769&#34;&gt;fotorama&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gallery.ru/watch?ph=jSz-fXpaR&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://data17.gallery.ru/albums/gallery/37349-74a8a-85617455-m750x740-u1b980.jpg&#34; border=&#34;0&#34; width=&#34;491&#34; height=&#34;740&#34; style=&#34;border:0px&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;dfgdfg&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rukeba.com/by-the-way/markdown-sintaksis-po-russki/&#34;&gt;text&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>google gallery test</title>
+      <link>http://hozaykatravy.com/posts/2015-03-16-gphoto-test/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hozaykatravy.com/posts/2015-03-16-gphoto-test/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/photos/112518746943932059156/albums/5818721811715994769&#34;&gt;ggrid&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://example.com/&#34; title=&#34;Title&#34;&gt;an example&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
